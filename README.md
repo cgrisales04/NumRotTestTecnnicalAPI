@@ -3,6 +3,16 @@
 
 APIRestFull creada en .NET v6.0 varios de sus Endpoints son:
 
+Para realizar la descarga del proyecto debes ejecutar desde la consola. 
+
+-   Ejecutar el comando
+    ```
+    git clone https://github.com/cgrisales04/NumRotTestTecnnicalAPI.git
+    ```
+
+- Crear una base de datos MySQL llamada: db_numrot 
+- Ejecutar el proyecto
+
 - [GET] - Obtener usuarios
 ```
 curl --location 'http://localhost:5000/api/infousers'
