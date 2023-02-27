@@ -11,6 +11,7 @@ Para realizar la descarga del proyecto debes ejecutar desde la consola.
     ```
 
 - Crear una base de datos MySQL llamada: db_numrot 
+- Ejecutar el script DDL para la creación de tablas
 - Ejecutar el proyecto
 
 - [GET] - Obtener usuarios
