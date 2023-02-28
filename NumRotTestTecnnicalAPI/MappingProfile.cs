@@ -9,6 +9,7 @@ namespace NumRotTestTecnnicalAPI {
             CreateMap<Genders, InfoUserDto>();
             CreateMap<TypeUsers, InfoUserDto>();
             CreateMap<InfoUsersForCreationDto, InfoUsers>();
+            CreateMap<InvoiceForCreationDto, Invoices>();
         }
     }
 }

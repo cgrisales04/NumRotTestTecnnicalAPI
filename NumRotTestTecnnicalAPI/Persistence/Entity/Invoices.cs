@@ -2,11 +2,11 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NumRotTestTecnnicalAPI.Persistence.Entity {
+    [Table("tbl_invoices")]
     public class Invoices {
         [Key]
-        public int invoice_id { get; set; }
-        [Required(ErrorMessage = "Input date_issuei is required")]
-        public string date_issue { get; set; }
+        public int? invoice_id { get; set; }
+        public DateTime? date_issue { get; set; }
 
         [Required(ErrorMessage ="Input totally is required")]
         public int value_totally { get; set; }
@@ -14,6 +14,5 @@ namespace NumRotTestTecnnicalAPI.Persistence.Entity {
         [ForeignKey(nameof(InfoUsers))]
         [Column("info_user_id_fk")]
         public int? InfoUserId { get; set; }
-        public InfoUsers? InfoUsers { get; set; }
     }
 }
